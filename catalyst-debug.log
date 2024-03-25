@@ -1,0 +1,53 @@
+[debug] [2024-03-25T12:58:42.416Z] : 
+[debug] [2024-03-25T12:58:42.419Z] : ----------------------------------------------------------------------
+[debug] [2024-03-25T12:58:42.419Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\gg\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-25T12:58:42.419Z] : CLI Version:  1.17.4
+[debug] [2024-03-25T12:58:42.420Z] : Platform:     win32
+[debug] [2024-03-25T12:58:42.420Z] : Node Version: v20.11.0
+[debug] [2024-03-25T12:58:42.420Z] : Time:         Mon Mar 25 2024 18:28:42 GMT+0530 (India Standard Time)
+[debug] [2024-03-25T12:58:42.420Z] : ----------------------------------------------------------------------
+[debug] [2024-03-25T12:58:42.421Z] : 
+[debug] [2024-03-25T12:58:43.199Z] : > authorizing via signed-in user option
+[debug] [2024-03-25T12:58:43.200Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-25T12:58:43.217Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20189000000006068 
+
+[debug] [2024-03-25T12:58:44.308Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Mar 2024 12:58:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=4ba47d28-3d1f-42b5-a2a2-5a0d98c77bfa;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4ba47d28-3d1f-42b5-a2a2-5a0d98c77bfa;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-25T12:58:44.311Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20189000000006068/environment 
+
+[debug] [2024-03-25T12:58:44.684Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Mar 2024 12:58:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=7ba6b4fb-23c2-46bc-b35f-acbe21db1b54;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7ba6b4fb-23c2-46bc-b35f-acbe21db1b54;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-25T12:58:45.205Z] : No basic functions to add
+[info] [2024-03-25T12:58:48.253Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-03-25T12:58:48.256Z] : 
+[info] [2024-03-25T12:58:48.257Z] : i Client[pokemons]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-03-25T12:58:48.257Z] : 
+[info] [2024-03-25T12:58:50.241Z] : 
+[info] [2024-03-25T12:58:50.242Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-25T12:58:50.243Z] : i client[pokemons]: http://localhost:3000/app/
+[info] [2024-03-25T12:58:50.243Z] : 
+[info] [2024-03-25T12:58:59.918Z] : [react-plugin]: Compiled successfully!
+[info] [2024-03-25T12:58:59.919Z] : [react-plugin]: 
+[info] [2024-03-25T12:58:59.919Z] : [react-plugin]: You can now view pokemons in the browser.
+[info] [2024-03-25T12:58:59.920Z] : [react-plugin]: 
+[info] [2024-03-25T12:58:59.920Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-03-25T12:58:59.920Z] : [react-plugin]:   On Your Network:  http://192.168.175.18:3000/app/
+[info] [2024-03-25T12:58:59.921Z] : [react-plugin]: 
+[info] [2024-03-25T12:58:59.921Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-03-25T12:58:59.922Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-03-25T12:58:59.922Z] : [react-plugin]: 
+[info] [2024-03-25T13:00:26.566Z] : Shutting down server
+[info] [2024-03-25T13:00:26.575Z] : 
+[info] [2024-03-25T13:00:26.576Z] : √ Shutdown complete
+[debug] [2024-03-25T13:00:26.577Z] : NO ERRORS REGISTERED
+[debug] [2024-03-25T13:00:26.577Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-03-25T13:00:26.577Z] : TOTAL DURATION OF COMMAND EXEC : 103396
+[debug] [2024-03-25T13:00:26.587Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-03-25T13:00:28.062Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 25 Mar 2024 13:00:29 GMT","content-length":"0","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=1cbedc49-4050-4c48-8197-476e529c18ea;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1cbedc49-4050-4c48-8197-476e529c18ea;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+

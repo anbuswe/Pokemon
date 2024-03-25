@@ -1,0 +1,6 @@
+{
+  "client": {
+    "source": "pokemons",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

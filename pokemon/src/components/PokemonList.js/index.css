@@ -1,0 +1,81 @@
+/* PokemonList.css */
+.pokemon-container {
+    background-color: darkcyan;
+  }
+.pokemon-container h1{
+    padding: 10px;
+    color: black;
+  }
+.pokemon-card:hover {
+    color: black;
+    scale: 1.1;
+}
+  .pokemon {
+    display: flex;
+  }
+  .pokemon-list {
+    flex: 0 0 20%;
+    padding: 10px;
+  }
+  
+  .pokemon-card {
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: floralwhite;
+    border-radius: 5px;
+    color: darkslategray;
+    font-weight: bold;
+  }
+  
+  .pokemon-details {
+    opacity: 0; /* Initially hide the details */
+  transform: translateY(-20px); /* Move the details up */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+    flex: 0 0 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    background-color: honeydew;
+    border-radius: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: center;
+  }
+  .pokemon-details.show {
+    opacity: 1; /* Show the details with transition */
+    transform: translateY(0); /* Move the details back to its original position */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Initial position */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Final position */
+    }
+  }
+ 
+  .pokemon-details img {
+    max-width: 200px;
+    border-radius: 5px;
+    background-color: darkcyan;
+  }
+  .pokemon-details img:hover {
+    scale: 1.5;
+    transition: 1s;
+    background-color: transparent;
+  }
+  .pokemon-details ul {
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
